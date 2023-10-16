@@ -1,0 +1,14 @@
+<div>
+  <micro-app
+    name='appname-react16'
+    [attr.url]='url'
+    baseroute='/main-angular11/app-react16'
+    [data]='microAppData'
+    (created)='handleCreate()'
+    (beforemount)='handleBeforeMount()'
+    (mounted)='handleMount()'
+    (unmount)='handleUnmount()'
+    (error)='handleError()'
+    (datachange)='handleDataChange($event)'
+  ></micro-app>
+</div>
